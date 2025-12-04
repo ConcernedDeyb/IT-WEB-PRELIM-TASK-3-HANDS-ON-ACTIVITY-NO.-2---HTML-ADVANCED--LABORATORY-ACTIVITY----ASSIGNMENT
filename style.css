@@ -185,6 +185,7 @@
         
         .info-box img {
             max-height: 200px !important;
+            box-sizing: border-box !important;
         }
         
         .code-block {
