@@ -152,11 +152,23 @@
             box-sizing: border-box;
         }
 
-        iframe {
+        .card div[style*="position:relative"] {
             width: 100%;
             height: 300px;
-            max-width: 100vw;
+            border: 2px solid #03a11d;
+            border-radius: 8px;
+            overflow: hidden;
+            box-sizing: border-box;
+        }
+    
+        .card div[style*="position:relative"] iframe {
+            width: 100%;
+            height: 100%;
             border: none;
+            border-radius: 0;
+            position: absolute;
+            top: 0;
+            left: 0;
         }
         
         
@@ -193,7 +205,7 @@
             padding: 6px;
         }
 
-        iframe {
+        .card div[style*="position:relative"] {
             height: 250px;
         }
     }
